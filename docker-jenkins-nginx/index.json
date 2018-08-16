@@ -1,0 +1,30 @@
+{
+  "title": "Docker Jenkins Nginx",
+  "description": "How to Run Jenkins in Docker with an Nginx Reverse Proxy.",
+  "difficulty": "beginner",
+  "time": "2 minutes",
+  "details": {
+    "steps": [{
+      "title": "Step 1 - Run Jenkins",
+      "text": "step1.md"
+    },
+    {
+      "title": "Step 2 - Run Nginx",
+      "text": "step2.md"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "bash"
+  }
+}
